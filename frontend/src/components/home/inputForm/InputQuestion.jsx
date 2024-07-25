@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import promptDataContext from "../../../context/PromptDataContext"
+import axios from "axios";
 
 export const InputQuestion = (props) => {
     
@@ -10,9 +11,19 @@ export const InputQuestion = (props) => {
     const name = ['ingredients','dietaryNeeds','craving','occasion','time','skill','allergies','tools','preference','servings'];
     const {promptData , setPromptData} = useContext(promptDataContext);
 
-    const onSubmitHandler = (e)=>{
+    const onSubmitHandler = async (e)=>{
         e.preventDefault()
-    }
+        console.log(promptData)
+
+        try{
+          const res = await axios.post("http://127.0.0.1:8000/api/v1/app/chat",{ body : JSON.stringify(promptData)});
+          console.log(res);
+
+        }catch(err){
+          console.log(err);
+        }
+      }
+
     
     const onClickHandler = (e) =>{
         e.preventDefault()
