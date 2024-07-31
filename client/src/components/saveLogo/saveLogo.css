@@ -1,0 +1,9 @@
+.SaveLogo{
+    position: absolute;
+    right: 1.4em;
+    top: 1.4em;
+    height: 32;
+    width: 32;
+    z-index: 999999;
+    cursor: pointer;
+}

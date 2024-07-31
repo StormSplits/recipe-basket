@@ -1,0 +1,32 @@
+.homeDiv {
+  margin: 1em 3.75em;
+  display: flex;
+}
+.HomeContent {
+  width: 60vw;
+}
+.HomeFoodLogo {
+  position: relative;
+  margin: 0.8em;
+  background-image: url("../../graphicalContent/r1p.jpg");
+  background-position-x: -1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 440px;
+  height: 376px;
+  flex-shrink: 0;
+  border-radius: 100px 100px 100px 240px;
+  background-color: #a3a3a3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.HomeFoodLogoContainer {
+  position: fixed;
+  right: 3em;
+  top: 15em;
+  width: 474px;
+  height: 405px;
+  flex-shrink: 0;
+  border-radius: 100px 100px 100px 240px;
+  background: rgba(255, 154, 32, 0.2);
+}

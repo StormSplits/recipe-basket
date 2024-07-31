@@ -1,0 +1,17 @@
+.savedDiv{
+  margin: 1em 3.75em;
+  
+}
+.backButton{
+    width: 96.5%;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.foodcards{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    margin-top: 3em;
+}
