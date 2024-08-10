@@ -76,12 +76,12 @@ To set up the project locally:
 ## Team Members
 
 Special thanks to everyone:
-- [SonuVerma6388](https://github.com/SonuVerma6388)
-- [shubhamchauhan8881](https://github.com/shubhamchauhan8881)
-- [ShivamTiwari0214](https://github.com/ShivamTiwari0214)
-- [1101surabhi](https://github.com/1101surabhi)
-- [excelgufran](https://github.com/excelgufran)
-- [StormSplits](https://github.com/StormSplits)
+- [Sonu Verma](https://github.com/SonuVerma6388)
+- [Shubham Chauhan](https://github.com/shubhamchauhan8881)
+- [Shivam Tiwari](https://github.com/ShivamTiwari0214)
+- [Surabhi Agrawal](https://github.com/1101surabhi)
+- [Gufran Khan](https://github.com/excelgufran)
+- [Shubham](https://github.com/StormSplits)
 
 ## License
 
