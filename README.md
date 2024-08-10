@@ -1,8 +1,3 @@
-# recipe-basket
-Here is a draft of the README for your project:
-
----
-
 # Recipe Basket
 
 Recipe Basket is a web application designed to provide users with personalized food recipes. By asking a few questions, the app generates a list of five recipes using the Gemini API. It then fetches corresponding images for these recipes from the Pexels API, offering users a complete visual and textual guide to the recipes.
