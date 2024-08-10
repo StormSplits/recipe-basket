@@ -1,0 +1,185 @@
+.RecipePage{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.ImageButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: start;
+    align-items: start;
+}
+
+/* CSS rules for small devices */
+@media (max-width: 600px) {
+    .RecipePage{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: flex-start;
+        gap: 1.5em;
+        align-items: center;
+    }
+
+    .Button1{
+        display: none;
+    }
+
+    .ContainerButton{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        gap: 1.5em;
+        align-items: center;
+    }
+
+}
+
+/* CSS rules for small devices */
+@media (min-width: 600px) and (max-width: 768px) {
+    .RecipePage{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: flex-start;
+        gap: 1.5em;
+        align-items: center;
+    }
+
+    .Button1{
+        display: none;
+    }
+
+    .ContainerButton{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        gap: 1.5em;
+        align-items: center;
+    }
+}
+
+/* CSS rules for medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+    .RecipePage{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: flex-start;
+        gap: 1.5em;
+        align-items: center;
+    }
+
+    .Button1{
+        display: none;
+    }
+
+    .ContainerButton{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        gap: 1.5em;
+        align-items: center;
+    }
+}
+
+/* CSS rules for large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .RecipePage{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: flex-start;
+        gap: 1.5em;
+        align-items: center;
+    }
+
+    .Button1{
+        display: none;
+    }
+
+    .ContainerButton{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        gap: 1.5em;
+        align-items: center;
+    }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1200px) and (max-width: 1528px) {
+    .RecipePage{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: flex-start;
+        gap: 1.5em;
+        align-items: center;
+    }
+
+    .Button2{
+        display: none;
+    }
+
+    .ImageButton{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        gap: 3em;
+        align-items: start;
+    }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1528px) {
+    .RecipePage{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    
+    .ImageButton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: start;
+        align-items: start;
+    }
+
+    .Button2{
+        display: none;
+    }
+}
+
+

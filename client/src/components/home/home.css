@@ -1,0 +1,430 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.HomeFoodLogo {
+  background-image: url("../../graphicalContent/r1p.jpg");
+  background-position-x: -1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 440px;
+  height: 376px;
+  flex-shrink: 0;
+  border-radius: 100px 100px 100px 240px;
+  background-color: #a3a3a3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.HomeFoodLogoContainer {
+  width: 474px;
+  height: 405px;
+  flex-shrink: 0;
+  border-radius: 100px 100px 100px 240px;
+  background: rgba(255, 154, 32, 0.2);
+}
+
+/* CSS rules for small devices */
+@media (max-width: 600px) {
+  .HomeFoodLogo {
+    /* position: relative; */
+    background-image: url("../../graphicalContent/r1p.jpg");
+    background-position-x: -1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10em;
+    height: 8em;
+    flex-shrink: 0;
+    border-radius: 100px 100px 100px 240px;
+    background-color: #a3a3a3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .HomeFoodLogoContainer {
+    /* position: relative; */
+    width: 11em;
+    height: 9em;
+    flex-shrink: 0;
+    border-radius: 100px 100px 100px 240px;
+    background: rgba(255, 154, 32, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PageHeadings{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .HomeContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .InputformArea{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 10px;
+  }
+  .foodSuggestion{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+
+  }
+  .foodSuggestion::-webkit-scrollbar {
+    display: none;
+  }
+
+
+}
+
+
+/* CSS rules for small devices */
+@media (min-width: 600px) and (max-width: 768px) {
+  .HomeFoodLogo {
+    /* position: relative; */
+    background-image: url("../../graphicalContent/r1p.jpg");
+    background-position-x: -1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20em;
+    height: 15em;
+    flex-shrink: 0;
+    border-radius: 100px 100px 100px 240px;
+    background-color: #a3a3a3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .HomeFoodLogoContainer {
+    /* position: relative; */
+    width: 22em;
+    height: 17em;
+    flex-shrink: 0;
+    border-radius: 100px 100px 100px 240px;
+    background: rgba(255, 154, 32, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PageHeadings{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .HomeContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .InputformArea{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 20px;
+    width: 70%;
+  }
+  .foodSuggestion{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+   padding: 10px 20px !important;
+
+  }
+  .foodSuggestion::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* CSS rules for medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+  .HomeFoodLogo {
+    /* position: relative; */
+    background-image: url("../../graphicalContent/r1p.jpg");
+    background-position-x: -1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23em;
+    height: 17em;
+    flex-shrink: 0;
+    border-radius: 100px 100px 100px 240px;
+    background-color: #a3a3a3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .HomeFoodLogoContainer {
+    /* position: relative; */
+    width: 25em;
+    height: 19em;
+    flex-shrink: 0;
+    border-radius: 100px 100px 100px 240px;
+    background: rgba(255, 154, 32, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PageHeadings{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .HomeContent{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .InputformArea{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 20px;
+    width: 70%;
+  }
+  .foodSuggestion{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+   padding: 10px 20px !important;
+
+  }
+  .foodSuggestion::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* CSS rules for large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .HomeFoodLogo {
+    /* position: relative; */
+    background-image: url("../../graphicalContent/r1p.jpg");
+    background-position-x: -1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 29em;
+    height: 22em;
+    flex-shrink: 0;
+    border-radius: 100px 100px 100px 240px;
+    background-color: #a3a3a3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .HomeFoodLogoContainer {
+    /* position: relative; */
+    width: 30em;
+    height: 24em;
+    flex-shrink: 0;
+    border-radius: 100px 100px 100px 240px;
+    background: rgba(255, 154, 32, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PageHeadings{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .HomeContent{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .InputformArea{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 20px;
+    width: 70%;
+  }
+  .foodSuggestion{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+   padding: 10px 20px !important;
+
+  }
+  .foodSuggestion::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* CSS rules for large devices */
+@media (min-width: 1200px) and (max-width: 1528px) {
+  .HomeFoodLogo {
+    display: none;
+  }
+
+  .HomeFoodLogoContainer {
+    display: none;
+  }
+
+  .PageHeadings{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .HomeContent{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  .InputformArea{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .foodSuggestion{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+   padding: 10px 20px !important;
+
+  }
+  .foodSuggestion::-webkit-scrollbar {
+    display: none;
+  }
+
+  .HomeFoodLogoContainer2{
+        /* position: relative; */
+        width: 30em;
+        height: 27em;
+        flex-shrink: 0;
+        border-radius: 100px 100px 100px 240px;
+        background: rgba(255, 154, 32, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+  .HomeFoodLogo2{
+        /* position: relative; */
+        background-image: url("../../graphicalContent/r1p.jpg");
+        background-position-x: -1.5em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 29em;
+        height: 25em;
+        flex-shrink: 0;
+        border-radius: 100px 100px 100px 240px;
+        background-color: #a3a3a3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .Imagess{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+  }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1528px) {
+  .HomeFoodLogo {
+    display: none;
+  }
+
+  .HomeFoodLogoContainer {
+    display: none;
+  }
+
+  .PageHeadings{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .HomeContent{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  .InputformArea{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .foodSuggestion{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+   padding: 10px 20px !important;
+
+  }
+  .foodSuggestion::-webkit-scrollbar {
+    display: none;
+  }
+
+  .HomeFoodLogoContainer2{
+        /* position: relative; */
+        width: 30em;
+        height: 27em;
+        flex-shrink: 0;
+        border-radius: 100px 100px 100px 240px;
+        background: rgba(255, 154, 32, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+  .HomeFoodLogo2{
+        /* position: relative; */
+        background-image: url("../../graphicalContent/r1p.jpg");
+        background-position-x: -1.5em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 29em;
+        height: 25em;
+        flex-shrink: 0;
+        border-radius: 100px 100px 100px 240px;
+        background-color: #a3a3a3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .Imagess{
+    position: absolute;
+    left: 65%;
+    top: 40%;
+  }
+}

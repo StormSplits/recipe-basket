@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.headingTop {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.8em;
+  }
+  .headingBottom {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.8em;
+  }
+
+  .headings{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* CSS rules for small devices */
+  @media (max-width: 600px) {
+    .headings{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: space-evenly;
+    }
+    .headingTop {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 1.5em;
+      font-variation-settings: "wdth" 100;
+    }
+
+    .headingBottom {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.5em;
+      font-variation-settings: "wdth" 100;
+    }
+
+}
+
+
+/* CSS rules for small devices */
+@media (min-width: 600px) and (max-width: 768px) {
+  .headings{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-evenly;
+  }
+  .headingTop {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+  }
+
+  .headingBottom {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+  }
+
+}
+
+/* CSS rules for medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+  .headings{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-evenly;
+  }
+  .headingTop {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+  }
+
+  .headingBottom {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+  }
+}
+
+/* CSS rules for large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .headings{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-evenly;
+  }
+  .headingTop {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.5em;
+  }
+
+  .headingBottom {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5em;
+  }
+}
+
+/* CSS rules for large devices */
+@media (min-width: 1200px) and (max-width: 1528px) {
+  .headings{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-evenly;
+  }
+  .headingTop {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.5em;
+  }
+
+  .headingBottom {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5em;
+  }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1528px) {
+  .headings{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-evenly;
+  }
+  .headingTop {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.5em;
+  }
+
+  .headingBottom {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5em;
+  }
+}

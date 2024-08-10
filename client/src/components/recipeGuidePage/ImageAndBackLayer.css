@@ -1,0 +1,231 @@
+.imageAndBackLayer {
+    width: 557px;
+    height: 592.08px;
+  }
+  
+  .rectangle5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 557px;
+    height: 592.08px;
+    background: #FF9A2033;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 240px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 240px;
+    transform: scaleX(-1);
+  }
+
+  .imagePlaceholder {
+    object-fit: fill;
+    width: 524px;
+    height: 567px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 240px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 240px;
+  }
+
+  /* CSS rules for small devices */
+  @media (max-width: 600px) {
+    .imageAndBackLayer {
+      width: 210px;
+      height: 223px;
+    }
+
+    .rectangle5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 210px;
+      height: 223px;
+      background: #FF9A2033;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-top-left-radius: 30px;
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 80px;
+      transform: scaleX(-1);
+    }
+  
+    .imagePlaceholder {
+      object-fit: fill;
+      width: 195px;
+      height: 211px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 80px;
+    }
+
+  }
+
+
+  /* CSS rules for small devices */
+  @media (min-width: 600px) and (max-width: 768px) {
+    .imageAndBackLayer {
+      width: 248px;
+      height: 263px;
+    }
+
+    .rectangle5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 248px;
+      height: 263px;
+      background: #FF9A2033;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-top-left-radius: 30px;
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 80px;
+      transform: scaleX(-1);
+    }
+  
+    .imagePlaceholder {
+      object-fit: fill;
+      width: 229px;
+      height: 247px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 80px;
+    }
+}
+
+
+/* CSS rules for medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+  .imageAndBackLayer {
+    width: 339px;
+    height: 359px;
+  }
+
+  .rectangle5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 339px;
+    height: 359px;
+    background: #FF9A2033;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 80px;
+    transform: scaleX(-1);
+  }
+
+  .imagePlaceholder {
+    object-fit: fill;
+    width: 308px;
+    height: 330px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 80px;
+  }
+}
+
+/* CSS rules for large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .imageAndBackLayer {
+    width: 402px;
+    height: 426px;
+  }
+
+  .rectangle5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 402px;
+    height: 426px;
+    background: #FF9A2033;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 150px;
+    transform: scaleX(-1);
+  }
+
+  .imagePlaceholder {
+    object-fit: fill;
+    width: 362px;
+    height: 388px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 150px;
+  }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1200px) and (max-width: 1528px) {
+  .imageAndBackLayer {
+    width: 402px;
+    height: 426px;
+  }
+
+  .rectangle5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 402px;
+    height: 426px;
+    background: #FF9A2033;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 150px;
+    transform: scaleX(-1);
+  }
+
+  .imagePlaceholder {
+    object-fit: fill;
+    width: 362px;
+    height: 388px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 150px;
+  }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1528px) {
+  .imageAndBackLayer {
+    width: 557px;
+    height: 592.08px;
+  }
+  
+  .rectangle5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 557px;
+    height: 592.08px;
+    background: #FF9A2033;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 240px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 240px;
+    transform: scaleX(-1);
+  }
+
+  .imagePlaceholder {
+    object-fit: fill;
+    width: 524px;
+    height: 567px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 240px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 240px;
+  }
+}
+

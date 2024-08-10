@@ -1,0 +1,198 @@
+.recipe-container {
+    position: relative;
+    border-radius: 30px;
+    background: #FFC57F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 750px;
+    height: 750px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .recipe-card {
+    margin-top: 2em;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;  
+    padding: 20px;
+    background-color: #FFC57F;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+  }
+
+  .recipe-card::-webkit-scrollbar { width: 0 !important }
+  
+  .recipe-card h2 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .recipe-card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .recipe-card h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .recipe-card ul,
+  .recipe-card ol {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .recipe-card li {
+    margin-bottom: 5px;
+    color: #444;
+  }
+
+  /* CSS rules for small devices */
+  @media (max-width: 600px) {
+    .recipe-container {
+      position: relative;
+      border-radius: 30px;
+      background: #FFC57F;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      display: flex;
+      width: 23rem;
+      height: 26rem;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .recipe-card {
+      margin-top: 2em;
+      width: 20em;
+      max-width: 600px;
+      border-radius: 1rem;
+      margin-bottom: 2em;  
+      padding: 1em;
+      background-color: #FFC57F;
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+    }
+  
+}
+
+/* CSS rules for small devices */
+@media (min-width: 600px) and (max-width: 768px) {
+  .recipe-container {
+    position: relative;
+    border-radius: 30px;
+    background: #FFC57F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 35rem;
+    height: 30rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .recipe-card {
+    margin-top: 2em;
+    width: 25em;
+    max-width: 600px;
+    border-radius: 1rem;
+    margin-bottom: 2em;  
+    padding: 1em;
+    background-color: #FFC57F;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+  }
+}
+
+/* CSS rules for medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+  .recipe-container {
+    position: relative;
+    border-radius: 30px;
+    background: #FFC57F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 40rem;
+    height: 35rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .recipe-card {
+    margin-top: 2em;
+    width: 35em;
+    max-width: 600px;
+    border-radius: 1rem;
+    margin-bottom: 2em;  
+    padding: 1em;
+    background-color: #FFC57F;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+  }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1200px) and (max-width: 1528px) {
+  .recipe-container {
+    position: relative;
+    border-radius: 30px;
+    background: #FFC57F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 40rem;
+    height: 35rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .recipe-card {
+    margin-top: 2em;
+    width: 35em;
+    max-width: 600px;
+    border-radius: 1rem;
+    margin-bottom: 2em;  
+    padding: 1em;
+    background-color: #FFC57F;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+  }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1528px) {
+  .recipe-container {
+    position: relative;
+    border-radius: 30px;
+    background: #FFC57F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 750px;
+    height: 750px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .recipe-card {
+    margin-top: 2em;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;  
+    padding: 20px;
+    background-color: #FFC57F;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+  }
+}

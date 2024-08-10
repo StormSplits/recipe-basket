@@ -1,0 +1,379 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.XrecipeFoodCard {
+  width: 162px;
+  height: 258px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background: #020202;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.XrecipeCardImage {
+
+  width: 154px;
+  height: 192px;
+  flex-shrink: 0;
+  border-radius: 9px;
+
+}
+.XrecipeContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.XrecipeCardName{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.64px;
+}
+
+/* CSS rules for small devices */
+@media (max-width: 600px) {
+  .XMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+  }
+  .XRSPageHeading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .XrecipeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 35em;
+    overflow: hidden;
+    padding: 6% 0;
+
+  }
+
+  .XMoving{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow-x: scroll;
+  }
+
+  .XMoving::-webkit-scrollbar {
+    display: none;
+    }
+
+  .XrecipeContainer::-webkit-scrollbar {
+    display: none;
+  }  
+
+  .XResButton{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+
+/* CSS rules for small devices */
+@media (min-width: 600px) and (max-width: 768px) {
+  .XMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+  }
+  .XRSPageHeading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .XrecipeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 40em;
+    overflow: hidden;
+    padding: 6% 0;
+
+  }
+
+  .XMoving{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow-x: scroll;
+  }
+
+  .XMoving::-webkit-scrollbar {
+    display: none;
+    }
+
+  .XrecipeContainer::-webkit-scrollbar {
+    display: none;
+  }  
+
+  .XResButton{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+
+/* CSS rules for medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+  .XMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+  }
+  .XRSPageHeading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .XrecipeContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    width: 45em;
+    height: 62em;
+    overflow: hidden;
+    padding: 6% 0;
+    overflow-y: scroll;
+
+  }
+
+  .XMoving{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    overflow-y: scroll;
+  }
+
+  .XMoving::-webkit-scrollbar {
+    display: none;
+    }
+
+  .XrecipeContainer::-webkit-scrollbar {
+    display: none;
+  }  
+
+  .XResButton{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+
+/* CSS rules for large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .XMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+  }
+  .XRSPageHeading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .XrecipeContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    width: 90%;
+    height: 60em;
+    overflow: hidden;
+    padding: 6% 0;
+    overflow-y: scroll;
+
+  }
+
+  .XMoving{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    overflow-y: scroll;
+  }
+
+  .XMoving::-webkit-scrollbar {
+    display: none;
+    }
+
+  .XrecipeContainer::-webkit-scrollbar {
+    display: none;
+  }  
+
+  .XResButton{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px 7em;
+  }
+}
+
+/* CSS rules for large devices */
+@media (min-width: 1200px) and (max-width: 1528px) {
+  .XMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+  }
+  .XRSPageHeading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .XrecipeContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: 40em;
+    overflow: hidden;
+    padding: 3% 3%;
+    overflow-y: scroll;
+
+  }
+
+  .XMoving{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    overflow-y: scroll;
+  }
+
+  .XMoving::-webkit-scrollbar {
+    display: none;
+    }
+
+  .XrecipeContainer::-webkit-scrollbar {
+    display: none;
+  }  
+
+  .XResButton{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    padding: 20px 0;
+    gap: 2em;
+    padding-right: 5em;
+  }
+}
+
+/* CSS rules for extra large devices */
+@media (min-width: 1528px) {
+  .XMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+  }
+  .XRSPageHeading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .XrecipeContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+    width: 100%;
+    overflow: scroll;
+    padding: 2% 2%;
+
+  }
+
+  .XMoving{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    overflow-x: scroll;
+  }
+
+  .XMoving::-webkit-scrollbar {
+    display: none;
+    }
+
+  .XrecipeContainer::-webkit-scrollbar {
+    display: none;
+  }  
+
+  .XResButton{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    width: 95%;
+    padding: 20px 0;
+    gap: 2em;
+    /* padding-right: 22%; */
+  }
+}
+
