@@ -1,6 +1,6 @@
 # Recipe Basket
 
-Recipe Basket is a web application designed to provide users with personalized food recipes. By asking a few questions, the app generates a list of five recipes using the Gemini API. It then fetches corresponding images for these recipes from the Pexels API, offering users a complete visual and textual guide to the recipes.
+[Recipe Basket](https://therecipebasket.netlify.app/) is a web application designed to provide users with personalized food recipes. By asking a few questions, the app generates a list of five recipes using the Gemini API. It then fetches corresponding images for these recipes from the Pexels API, offering users a complete visual and textual guide to the recipes.
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
@@ -73,10 +73,18 @@ To set up the project locally:
 - **Gemini API**: Used to generate recipes based on user preferences.
 - **Pexels API**: Used to fetch images corresponding to the generated recipes.
 
-## Contributing
+## Team Members
 
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) to get started.
+Special thanks to everyone:
+- [SonuVerma6388](https://github.com/SonuVerma6388)
+- [shubhamchauhan8881](https://github.com/shubhamchauhan8881)
+- [ShivamTiwari0214](https://github.com/ShivamTiwari0214)
+- [1101surabhi](https://github.com/1101surabhi)
+- [excelgufran](https://github.com/excelgufran)
+- [StormSplits](https://github.com/StormSplits)
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under a proprietary license. Unauthorized use, distribution, or reproduction of this project or any of its components is strictly prohibited. This license grants no rights to use, copy, modify, or distribute the project or its source code.
+
+For any inquiries or permissions, please contact the project maintainers.
