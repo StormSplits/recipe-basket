@@ -39,7 +39,7 @@
       font-optical-sizing: auto;
       font-weight: 600;
       font-style: normal;
-      font-size: 1.5em;
+      font-size: 1.4em;
       font-variation-settings: "wdth" 100;
     }
 
@@ -48,7 +48,7 @@
       font-optical-sizing: auto;
       font-weight: 700;
       font-style: normal;
-      font-size: 1.5em;
+      font-size: 1.4em;
       font-variation-settings: "wdth" 100;
     }
 
@@ -71,7 +71,7 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   .headingBottom {
@@ -79,7 +79,7 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
 }
@@ -184,7 +184,8 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: 3.5em;
+    /* font-size: 3.5em; */
+    font-size: 3em;
   }
 
   .headingBottom {
@@ -192,6 +193,7 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 3.5em;
+    /* font-size: 3.5em; */
+    font-size: 3em;
   }
 }

@@ -37,20 +37,23 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px; 
+  height: 60px; 
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.00) 100%); 
   border-radius: 10px 10px 0 0;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
 }
 
 .foodName {
   position: relative;
+  margin: 0px 15px ;
   bottom: 230px;
-  text-align: center;
+  /* text-align: center; */
+  text-align: left;
   color: #FFF;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
   font-family: "Open Sans";
-  font-size: 17px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 500;
   
@@ -59,7 +62,9 @@
 .cuisineName {
   position: absolute; /* Make it absolute for easy positioning */
   bottom: 10px;
-  left: 1em;
+  /* left: 1em; */
+  left: 15px;
+  /* right: 15px ; */
   color: #FFF;
   font-family: "Open Sans";
   font-size: 17px;
@@ -67,7 +72,9 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: .5px;
-  transition: transform 0.6s ease;
+  /* transition: transform 0.6s ease; */
+  transition: transform 0.5s ease, left 0.5s ease;
+  /* transform: translateX(0) ; */
 }
 
 .homeFoodCard:hover .homeFoodCardImage {
@@ -77,8 +84,9 @@
 }
 
 .homeFoodCard:hover .foodName{
-  transform: translateY(0px);
-  transition: 0.5s ease;
+  /* transform: translateY(0px); */
+  transform: translateY(-70px);
+  /* transition: 0.5s ease; */
 }
 
 .homeFoodCardImage:hover{
@@ -86,6 +94,7 @@
 }
 .homeFoodCard:hover .blurLayer {
   animation: slideDown 0.9s forwards; /* Slide down animation with slower speed */
+  top: 100%
 }
 
 @keyframes slideDown {
@@ -100,5 +109,6 @@
 }
 
 .homeFoodCard:hover .cuisineName {
-  transform: translateX(50px); /* Adjust the value to move it to the right side */
+  transform: translateX(50px);  /* Adjust the value to move it to the right side */
+  text-align: right ;
 }

@@ -51,7 +51,7 @@ label {
 }
 
 .next {
-  min-width: 9.3em;
+  /* min-width: 9.3em; */
   color: white;
   display: inline-flex;
   padding: 14px 52px;
@@ -115,10 +115,11 @@ label {
     align-items: center;
     width: 100%;
     gap: 0.2em;
+    margin : 15px 0px ;
   }
 
   .loadValue {
-    width: 31px;
+    width: 27px;
     height: 4px;
     flex-shrink: 0;
     border-radius: 50px;
@@ -132,7 +133,7 @@ label {
     align-items: center;
     width: 100%;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -147,7 +148,7 @@ label {
   label {
     color: #212121;
     font-family: "Open Sans";
-    font-size: 1.3em;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     display: block;
@@ -155,7 +156,7 @@ label {
 
   .inputButtonDiv{
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-content: space-around;
   }
 
@@ -177,10 +178,10 @@ label {
   }
 
   .next {
-  min-width: 9.3em;
+  width: 8em;
   color: white;
   display: inline-flex;
-  padding: 14px 52px;
+  padding: 10px 30px;
   justify-content: center;
   align-items: center;
   gap: 4px;
@@ -207,6 +208,7 @@ label {
     align-items: center;
     width: 60%;
     gap: 0.2em;
+    margin-bottom: 15px ;
   }
 
   .loadValue {
@@ -224,7 +226,7 @@ label {
     align-items: center;
     width: 100%;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -239,7 +241,7 @@ label {
   label {
     color: #212121;
     font-family: "Open Sans";
-    font-size: 1.8em;
+    font-size: 1.3em;
     font-style: normal;
     font-weight: 400;
     display: block;
@@ -263,6 +265,7 @@ label {
     align-items: center;
     width: 80%;
     gap: 0.3em;
+    margin-bottom: 15px;
   }
 
   .loadValue {
@@ -280,7 +283,7 @@ label {
     align-items: center;
     width: 100%;
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -319,6 +322,7 @@ label {
     align-items: center;
     width: 70%;
     gap: 0.1em;
+    margin-bottom: 20px;
   }
 
   .loadValue {
@@ -455,7 +459,7 @@ label {
     align-items: center;
     width: 100%;
     margin-top: 15px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -470,7 +474,7 @@ label {
   label {
     color: #212121;
     font-family: "Open Sans";
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-style: normal;
     font-weight: 400;
     display: block;
